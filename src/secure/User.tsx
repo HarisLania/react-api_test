@@ -1,7 +1,10 @@
 import React from "react";
+import Wrapper from "./Wrapper";
 
 const User = () => (
-    <p>user</p>
+    <Wrapper>
+        <p>user</p>
+    </Wrapper>
 )
 
 export default User;
